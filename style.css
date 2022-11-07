@@ -1,0 +1,328 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+margin: 0;
+padding: 0;
+background-color: #bdbdbd;
+}
+/*sosyal medya alanı*/
+.social
+{
+    background-color: black;
+    color: aliceblue;
+    height: 55px;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    font-size: 19px;
+}
+.social font 
+{
+letter-spacing: 2px;
+float: left;
+color: rgb(224, 67, 203);
+}
+.social font  span{
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+.social a{
+    color: #bdbdbd;
+}
+
+.social i
+{
+float: right;
+margin-right: 15px;
+transition: 0.2s;
+}
+.social i:hover
+{
+opacity: 0.8;
+color:rgb(224, 67, 203);
+cursor: pointer;
+}
+/*container alanı*/
+#container
+{
+   
+    width: 80%;
+    margin: auto;
+    height: auto;
+   
+}
+/*HEADER ALANı*/
+header
+{
+    height: 250px;
+    width: 100%;
+    box-shadow: 0 2px 8px 2px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    background-color: black;
+    margin-bottom: 5px;
+}
+header #headerResim
+{
+    height: 250px;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    opacity: 0.8;
+    
+}
+header #center
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+/*section*/
+section
+{
+    width: 100%;
+    height: auto;
+    background: #f1f1f1;;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 2px 8px 2px;
+    margin-top: 15px;
+   overflow: auto; /*nav sectiona sığdırması için*/
+}
+/*section - nav*/
+section .navin
+{
+    width: 20%;
+    height: 900px;
+    margin-top: 20px;
+    float: left;
+}
+nav ul
+{
+margin: 0;
+padding: 0;
+width: auto;
+height: 100%;
+}
+nav li
+{
+    list-style: none;
+}
+nav a{
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    border-bottom: solid 1px #b4b4b4;
+    padding-left: 20px;
+    display: block;
+    
+}
+nav a:hover
+{
+    color: white;
+    background-color: #adadad;
+    text-decoration: none;
+}
+nav i{
+    margin-right: 15px;
+}
+/*card bolumu*/
+.container .card
+{
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 2px;
+}
+.card-img-top
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-img-top:hover
+{
+   opacity: 0.6;
+}
+.card-title
+{
+    color: black;
+    font-size: 20px;
+}
+.card-text
+{
+    color: rgb(24, 23, 23);
+    
+}
+.btn
+{
+    opacity: 0.8;
+}
+/*footer*/
+footer
+{
+    width: auto;
+    height: 75px;
+    background-color: black;
+    box-shadow: 0 2px 8px 2px;
+     text-align: center;
+     line-height: 75px;
+     color:white;
+}
+/*hakkımızda*/
+section .navhak
+{
+    width: 20%;
+    height: 900px;
+    margin-top: 20px;
+    float: left;
+}
+main h1{
+   
+    color: white;
+    text-align: center;
+    margin: 0 10px;
+    height: 50px;
+    width: 76%;
+    line-height: 50px;
+    background-color: black;
+    margin-left: 22%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#hakkimizdaRS
+{
+    width: 350px;
+    height: 300px;
+    float: left;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
+    transition: all 0.6s;
+}
+#hakkimizdaRS:hover
+{
+    opacity: 0.6;
+}
+.hakyazi
+{
+    margin-right: 15px;
+    font-size: 15px;
+    text-indent: 10px;
+    font-weight: 300;
+    color: black;
+}
+.hakbass
+{
+    color: rgb(224, 67, 203);
+}
+/*galeri boyut*/
+.secgal
+{
+    width: 100%;
+    height: 510px;
+    background: #f1f1f1;;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 2px 8px 2px;
+    margin-top: 15px;
+   overflow: auto; /*nav sectiona sığdırması için*/
+   overflow-y: hidden; 
+}
+/*iletişim sayfası*/
+iframe
+{
+   margin-left: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 2px 8px 2px;
+
+}
+/*form alanı*/
+.form
+{
+    width: 40%;
+    float: left;
+    height: 380px;
+   border: 1px solid #b8b8b8;
+   padding: 10px ;
+    margin-right: 10px;
+    margin-left: 20px;
+
+}
+.col-25
+{
+    width: 25%;
+    float: left;
+    margin-top: 6px;
+    margin-left: 20px;
+
+}
+.col-75
+{
+    width: 70%;
+    float: left;
+    margin-top: 6px;
+}
+label
+{
+    display: inline-block;
+    color: black;
+}
+input[text]
+{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+textarea
+{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.row::after
+{
+    content: " ";
+    clear: both;
+    display: block;
+}
+.buton
+{
+    background-color: #4caf50;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    float: right;
+    border-radius: 4px;
+}
+/*Adres*/
+.adres
+{
+    width: 36%;
+    float: left;
+    height: 380px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+/*span etiketi*/
+.span1
+{
+    display: block;
+    margin: 10px;
+    letter-spacing: 1.5px;
+    font-size: 16px;
+    text-align: center;
+
+}
